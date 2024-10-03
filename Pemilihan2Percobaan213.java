@@ -4,7 +4,7 @@ public class Pemilihan2Percobaan213 {
     public static void main(String[] args) {
         Scanner input13 = new Scanner(System.in);
         String  member;
-        int jumlah_beli, pilihan_menu,harga;
+        int  pilihan_menu, harga;
         double diskon, total_bayar;
         System.out.println("-------------------------");
         System.out.println("===== MENU KAFE JTI =====");
@@ -38,6 +38,7 @@ public class Pemilihan2Percobaan213 {
             }else {
                 System.out.println("Masukkan pilihan menu dengan benar");
                 return; // Menghentikan eksekusi lebih lanjut jika pilihan salah
+            
             }
 
             //Menghitung total bayar setelah diskon 
@@ -68,8 +69,8 @@ public class Pemilihan2Percobaan213 {
             System.out.println("Member tidak valid");
         }
         System.out.println("----------------------------------------");
-
-
+input13.close();
+        
     }
     
 }
